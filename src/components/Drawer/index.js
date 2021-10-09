@@ -15,12 +15,10 @@ import WcIcon from '@mui/icons-material/Wc';
 import StoreIcon from '@mui/icons-material/Store';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import { HashLink as Link } from "react-router-hash-link";
-// import useRouter from "next/router"
 import { Link } from "react-router-dom";
 
 
-function SwipeableTemporaryDrawer () {
-    // const router = useRouter()
+function SwipeableTemporaryDrawer (props) {
     const[open, setOpen] = useState(false);
     return (
         <div>
