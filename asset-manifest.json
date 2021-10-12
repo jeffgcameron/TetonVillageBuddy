@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/TetonVillageBuddy/static/css/main.a617e044.chunk.css",
-    "main.js": "/TetonVillageBuddy/static/js/main.6bc689e0.chunk.js",
-    "main.js.map": "/TetonVillageBuddy/static/js/main.6bc689e0.chunk.js.map",
-    "runtime-main.js": "/TetonVillageBuddy/static/js/runtime-main.a6ce3f3f.js",
-    "runtime-main.js.map": "/TetonVillageBuddy/static/js/runtime-main.a6ce3f3f.js.map",
-    "static/js/2.8833cd6e.chunk.js": "/TetonVillageBuddy/static/js/2.8833cd6e.chunk.js",
-    "static/js/2.8833cd6e.chunk.js.map": "/TetonVillageBuddy/static/js/2.8833cd6e.chunk.js.map",
-    "static/js/3.ff0311e9.chunk.js": "/TetonVillageBuddy/static/js/3.ff0311e9.chunk.js",
-    "static/js/3.ff0311e9.chunk.js.map": "/TetonVillageBuddy/static/js/3.ff0311e9.chunk.js.map",
+    "main.css": "/TetonVillageBuddy/static/css/main.5cc85d3e.chunk.css",
+    "main.js": "/TetonVillageBuddy/static/js/main.99decb4e.chunk.js",
+    "main.js.map": "/TetonVillageBuddy/static/js/main.99decb4e.chunk.js.map",
+    "runtime-main.js": "/TetonVillageBuddy/static/js/runtime-main.76b3dbca.js",
+    "runtime-main.js.map": "/TetonVillageBuddy/static/js/runtime-main.76b3dbca.js.map",
+    "static/js/2.19daed0a.chunk.js": "/TetonVillageBuddy/static/js/2.19daed0a.chunk.js",
+    "static/js/2.19daed0a.chunk.js.map": "/TetonVillageBuddy/static/js/2.19daed0a.chunk.js.map",
+    "static/js/3.38aae88b.chunk.js": "/TetonVillageBuddy/static/js/3.38aae88b.chunk.js",
+    "static/js/3.38aae88b.chunk.js.map": "/TetonVillageBuddy/static/js/3.38aae88b.chunk.js.map",
     "index.html": "/TetonVillageBuddy/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/TetonVillageBuddy/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.8833cd6e.chunk.js.LICENSE.txt": "/TetonVillageBuddy/static/js/2.8833cd6e.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/TetonVillageBuddy/static/media/logo.6ce24c58.svg"
+    "static/css/main.5cc85d3e.chunk.css.map": "/TetonVillageBuddy/static/css/main.5cc85d3e.chunk.css.map",
+    "static/js/2.19daed0a.chunk.js.LICENSE.txt": "/TetonVillageBuddy/static/js/2.19daed0a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/TetonVillageBuddy/static/media/aleesha-wood-sM1jrEllC3U-unsplash.03047e6b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a6ce3f3f.js",
-    "static/js/2.8833cd6e.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.6bc689e0.chunk.js"
+    "static/js/runtime-main.76b3dbca.js",
+    "static/js/2.19daed0a.chunk.js",
+    "static/css/main.5cc85d3e.chunk.css",
+    "static/js/main.99decb4e.chunk.js"
   ]
 }
