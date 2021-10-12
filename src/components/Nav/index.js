@@ -9,6 +9,9 @@ import InputBase from '@mui/material/InputBase';
 // import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import SwipeableTemporaryDrawer from "../Drawer";
+// import NavDrawer from "../NavDrawer/index"
+// import Logo from "../../Images/TVBWhite.png"
+import "./style.css";
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -58,13 +61,14 @@ export default function SearchAppBar() {
       <AppBar position="static">
         <Toolbar>
         <SwipeableTemporaryDrawer />
+        {/* <NavDrawer /> */}
           <Typography
             variant="h6"
             noWrap
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            Teton Village Buddy
+           {/* <img src={Logo} height="30px" alt="logo" className ="logo-center"/> */}
           </Typography>
           <Search>
             <SearchIconWrapper>
