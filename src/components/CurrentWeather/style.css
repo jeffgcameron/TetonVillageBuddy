@@ -1,11 +1,21 @@
 #current-weather-div {
-    background-color: rgba(8, 8, 8, 0.089);
+    /* background-color: rgba(8, 8, 8, 0.089); */
+    margin-bottom: 7vh;
+    margin-top: 7vh;
 }
 
-h1 {
+/* h1 {
     margin-top: 0;
     padding-top: 7vh;
     font-family: 'Karla', sans-serif;
+} */
+
+#current-weather-container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  /* background-color: rgba(5, 5, 5, 0.411); */
 }
 
 .right {
@@ -15,11 +25,12 @@ h1 {
 #weather-icon {
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    height: 100%;
+    /* margin-right: auto; */
 }
 
 #temp {
-    font-size: 50px;
+    font-size: 70px;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 50;
@@ -27,5 +38,18 @@ h1 {
 
 .weather-style {
     font-family: 'Lato', sans-serif;
-    text-align: center;
+    margin: 0;
+    /* text-align: center; */
+}
+
+.weather-title {
+    font-size: 30px;
+    margin-bottom: 1vh;
+    font-family: 'Lato', sans-serif;
+}
+
+#description {
+    text-align: right;
+    font-size: large;
+    font-weight: bold;
 }

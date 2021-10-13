@@ -6,6 +6,7 @@ import Grid from "@material-ui/core/Grid";
 // import CardContent from "@mui/material/CardContent";
 import axios from "axios";
 import "./style.css";
+import { Card } from "@material-ui/core";
 
 class CurrentWeather extends Component {
   componentDidMount() {
@@ -25,7 +26,7 @@ class CurrentWeather extends Component {
       console.log(response.data);
 
       const tempContainer = document.querySelector("#temp");
-      const currentWeather = Math.round(response.data.main.temp) + "°F";
+      const currentWeather = Math.round(response.data.main.temp) + "°";
       console.log(currentWeather);
       tempContainer.textContent = currentWeather;
 
@@ -52,7 +53,7 @@ class CurrentWeather extends Component {
       humidityContainer.textContent = currentHumidity
 
       // setHumidity(currentHumidity)
-      let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friay", "Saturday"]
+      const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
       let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
       let d = new Date();
       dateContainer.innerHTML = days[d.getDay()] + ", ";
@@ -87,9 +88,52 @@ class CurrentWeather extends Component {
 
   render() {
     return (
-      <div id="current-weather-div">
-        <h1>Current Weather</h1>
-        <Grid container>
+      
+        <div id="current-weather-div">
+          <Grid container className = "container" id="current-weather-container">
+            <Grid item xs={12}>
+            <p className="weather-title">Teton Village Weather</p>
+            <p className="weather-style" id="date"></p>
+            <p className="weather-style" id="time"></p>
+            </Grid>
+            <Grid item xs={6}>
+            <p id="temp" className="weather-style"></p>
+            </Grid>
+            <Grid item xs={6}>
+            <img id="weather-icon" src="" alt="Weather icon"></img>
+            </Grid>
+            <Grid item xs={6}>
+            <p id="wind" className="weather-style"></p>
+            <p id="humidity" className="weather-style"></p>
+            </Grid>
+            <Grid item xs={6}>
+            <p id="description" className="weather-style"></p>
+            </Grid>
+          </Grid>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {/* <h1>Current Weather</h1> */}
+        {/* <Grid container>
           <Grid item md={3} sm={6} id="icon">
             <div>
             <img id="weather-icon" src="" alt="Weather icon"></img>
@@ -113,7 +157,7 @@ class CurrentWeather extends Component {
             <p className="weather-style" id="time">
             </p>
           </Grid>
-        </Grid>
+        </Grid> */}
       </div>
     );
   }

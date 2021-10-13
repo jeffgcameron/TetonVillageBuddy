@@ -3,7 +3,7 @@ import CurrentWeather from "../components/CurrentWeather/index"
 import WeatherForecast from "../components/WeatherForecast/index"
 
 const Weather = () => (
-  <div>
+  <div id="weather-page">
     
     <CurrentWeather />
     <WeatherForecast />
